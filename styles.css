@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background: #f4f4f4;
   color: #333;
   line-height: 1.6;
@@ -64,31 +64,29 @@ header {
 }
 
 
-div h1 {
-  font-size: 2rem;
-  margin: 20px;
-  text-align: center;
+
+section h1 {
   color: #002147;
+  font-size: 80px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
-
-div h2 {
-  font-size: 1.5rem;
-  margin: 10px 20px;
-  text-align: center;
-  color: #444;
+/* SUBTÍTULO */
+section h2 {
+  color: #002147;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
 }
 
-
-div h3 {
-  font-size: 1.1rem;
-  margin: 10px 20px 30px 20px;
-  text-align: left;
-  font-weight: normal;
-  color: #555;
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+/* TEXTO EXPLICATIVO */
+section h3 {
+  color: #002147;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 
